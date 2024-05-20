@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>last footer</title>
+    <style>
+        /* black page of fellowship website */
+        footer{
+            display: block;
+            color: rgb(163 163 163);
+            background-color: rgb(36 36 37);
+            height: auto;
+            word-wrap:normal;
+        }
+        .space8{
+            
+            padding: 10px;
+            margin: 100px;
+            flex-wrap: wrap;
+        }
+        .lg{
+            display:flex;
+        }
+        .gridpart{
+            width:auto;
+        }
+        .gridpart{
+            display:flex;
+            grid-column: auto;
+            gap: 100px;
+        }
+        .grid{
+            display: grid;
+            text-wrap:wrap;
+            color:rgb(163 163 163);
+        
+        }
+        a{
+            color:rgb(163 163 163);
+            padding: 10px;
+
+        }
+        h2{
+            color: aliceblue;
+        }
+        img{
+            height: 30px;
+            gap: 10px;
+        }
+        .flexspace{
+            display:flex;
+        }
+
+    </style>
+</head>
+<body>
+    <footer class="bgblack">
+        <h2 class="sronly">footer</h2>
+        <div class="maxauto">
+            <div class="lg">
+                <div class="space8">
+                    <a href="#" style="font-size: 30px;"><span>
+                        <img src="https://fellowship.mlh.io/img/mlh-logo-color-light.svg" alt="">
+                    </span>
+                </a>
+                <div class="small" style="font-size: 30px;"> We empower hackers</div>
+                <div class="flexspace">
+                    <a href="#">
+                        <img src="data:image/jpeg;base64,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" alt="img ">
+                    </a><a href="#">
+                        <img src="https://th.bing.com/th/id/OIP.e0GLlSZUZcYwTtBAQ4bgEQHaHa?w=184&h=184&c=7&r=0&o=5&pid=1.7" alt="img ">
+                    </a><a href="#">
+                        <img src="https://th.bing.com/th/id/OIP.QU_RWcPyTtZAjybrZ1BMKAHaFj?w=253&h=190&c=7&r=0&o=5&pid=1.7" alt="img ">
+                    </a><a href="https://github.com/LatikaAdhikari064">
+                        <img src="https://th.bing.com/th/id/OIP.7yTOCTDz_D8RjNA4dfsQfgHaGo?w=199&h=180&c=7&r=0&o=5&pid=1.7" alt="img ">
+                    </a><a href="https://www.linkedin.com/in/latika-adhikari-244b79214/">
+                        <img src="https://th.bing.com/th/id/OIP.rZ11GsqQHaXHBkKZ9mVUGAHaFD?w=289&h=197&c=7&r=0&o=5&pid=1.7" alt="img ">
+                    </a>
+                </div>
+
+                </div>
+
+                <!--flex part2 -->
+                <div class="gridpart">
+                    <div class="grid"><h2>company</h2> 
+                        <ul>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">career</a></li>
+                            <li><a href="#">partner</a></li>
+                            <li><a href="#">Blog</a></li>
+                        </ul>
+                    </div>
+                    <div class="grid"><h2>resourse</h2> 
+                        <ul>
+                            <li><a href="#">resourse</a></li>
+                            <li><a href="#">Code of Conduct</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Contact us </a></li>
+                        </ul>
+                    </div>
+                    <div class="grid"><h2>program</h2>
+                        <ul>
+                            <li><a href="#">software engineering</a></li>
+                            <li><a href="#">site engineering</a></li>
+                            <li><a href="#">Web3 engineering</a></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="grid"><h2>legal</h2>
+                        <ul>
+                            <li><a href="#">Privacy</a></li>
+                           
+                        </ul>
+                    </div>
+
+                    
+                </div>
+                
+
+            </div>
+            <hr  style="width: 1200px;">
+            <div>
+                <p class="lastloine" style="text-align: center; font-size:20px;  "> 
+                    "latikaadhikari"
+                    "2024"
+                Not a Responsive website  
+                
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
